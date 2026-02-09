@@ -4,8 +4,8 @@ Suite Setup         Open Browser    https://access.line.me/oauth2/v2.1/login?ret
 Suite Teardown      Close Browser    
 
 *** Variables ***
-${EMAIL}    dragonearth5566@gmail.com
-${PASSWORD}    Dragonworld5566
+${EMAIL}    
+${PASSWORD}    
 
 
 *** Keywords ***
@@ -37,31 +37,31 @@ Click Element ประเมิน
     Click Element  //*[@id="root"]/div/main/article/section[3]/div/div/div/a
 
 Click Element ตอบแบบสอบถามข้อ1
-    Click Element  xpath=//div[label]/label[2]/input
+    Click Element  //*[@id="react-aria9637253652-«r7t»"]/div/label[2]/input
 
 click Element ตอบแบบสอบถามข้อ2
-    Click Element    xpath=//div/label[2]/input
+    Click Element  //*[@id="react-aria9637253652-«r8b»"]/div/label[3]/input
 
 Click Element ตอบแบบสอบถามข้อ3
-    Click Element  xpath=//div/label[1]/input
+    Click Element  //*[@id="react-aria9637253652-«r8p»"]/div/label[2]/input
 
 Click Element ตอบแบบสอบถามข้อ4
-    Click Element  xpath=//div/label[3]/input
+    Click Element  //*[@id="react-aria9637253652-«r97»"]/div/label[3]/span
 
 Click Element ตอบแบบสอบถามข้อ5
-    Click Element  xpath=//div/label[1]/input
+    Click Element  //*[@id="react-aria9637253652-«r9l»"]/div/label[1]/input
 
 Click Element ตอบแบบสอบถามข้อ6
-    Click Element  xpath=//div/label[3]/input
+    Click Element  //*[@id="react-aria9637253652-«ra3»"]/div/label[3]/input
 
 Click Element ตอบแบบสอบถามข้อ7
-    Click Element  xpath=//div/label[1]/input
+    Click Element  //*[@id="react-aria9637253652-«rah»"]/div/label[1]/input
 
-Click Element ตอบแบบสอบถามข้อ8
-    Click Element  xpath=//div/label[3]/input
+# Click Element ตอบแบบสอบถามข้อ8
+#     Click Element  //*[@id="react-aria9637253652-«rav»"]/div/label[3]/input
 
-Click Element ตอบแบบสอบถามข้อ9
-    Click Element  xpath=//div/label[1]/input
+# Click Element ตอบแบบสอบถามข้อ9
+#     Click Element  //*[@id="react-aria9637253652-«rbd»"]/div/label[1]/input
 
 Click Element ส่งแบบประเมิน
     Click Element  //*[@id="root"]/div/main/article/section[2]/div[2]/button
