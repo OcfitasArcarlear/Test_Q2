@@ -31,37 +31,37 @@ Click Element ประวัติการเตรวจสุขภาพ
     click Element  //*[@id="root"]/div/main/section[2]/div/div[2]/div[1]/a
 
 Click Element ตรวจ
-    Click Element   //*[@id="react-aria7386037449-«r19»-1500701347680-00146-$.0"]/a
+    Click Element   xpath=//a[normalize-space()='ตรวจสอบ']
 
 Click Element ประเมิน
     Click Element  //*[@id="root"]/div/main/article/section[3]/div/div/div/a
 
 Click Element ตอบแบบสอบถามข้อ1
-    Click Element  //*[@id="react-aria9637253652-«r7t»"]/div/label[2]/input
+    Click Element  xpath=//div[label]/label[2]/input
 
 click Element ตอบแบบสอบถามข้อ2
-    Click Element  //*[@id="react-aria9637253652-«r8b»"]/div/label[3]/input
+    Click Element    xpath=//div/label[2]/input
 
 Click Element ตอบแบบสอบถามข้อ3
-    Click Element  //*[@id="react-aria9637253652-«r8p»"]/div/label[2]/input
+    Click Element  xpath=//div/label[1]/input
 
 Click Element ตอบแบบสอบถามข้อ4
-    Click Element  //*[@id="react-aria9637253652-«r97»"]/div/label[3]/span
+    Click Element  xpath=//div/label[3]/input
 
 Click Element ตอบแบบสอบถามข้อ5
-    Click Element  //*[@id="react-aria9637253652-«r9l»"]/div/label[1]/input
+    Click Element  xpath=//div/label[1]/input
 
 Click Element ตอบแบบสอบถามข้อ6
-    Click Element  //*[@id="react-aria9637253652-«ra3»"]/div/label[3]/input
+    Click Element  xpath=//div/label[3]/input
 
 Click Element ตอบแบบสอบถามข้อ7
-    Click Element  //*[@id="react-aria9637253652-«rah»"]/div/label[1]/input
+    Click Element  xpath=//div/label[1]/input
 
-# Click Element ตอบแบบสอบถามข้อ8
-#     Click Element  //*[@id="react-aria9637253652-«rav»"]/div/label[3]/input
+Click Element ตอบแบบสอบถามข้อ8
+    Click Element  xpath=//div/label[3]/input
 
-# Click Element ตอบแบบสอบถามข้อ9
-#     Click Element  //*[@id="react-aria9637253652-«rbd»"]/div/label[1]/input
+Click Element ตอบแบบสอบถามข้อ9
+    Click Element  xpath=//div/label[1]/input
 
 Click Element ส่งแบบประเมิน
     Click Element  //*[@id="root"]/div/main/article/section[2]/div[2]/button
