@@ -4,7 +4,8 @@ Suite Setup         Open Browser    https://access.line.me/oauth2/v2.1/login?ret
 Suite Teardown      Close Browser    
 
 *** Variables ***
-${th}        ไทย
+${EMAIL}    dragonearth5566@gmail.com
+${PASSWORD}    Dragonworld5566
 
 
 *** Keywords ***
@@ -12,13 +13,13 @@ click Element email
     Click Element   //*[@id="app"]/div/div/div/div[2]/div/form/fieldset/div[1]
 
 input Email 
-    Input Text    //*[@id="app"]/div/div/div/div[2]/div/form/fieldset/div[1]/input  dragonearth5566@gmail.com
+    Input Text    //*[@id="app"]/div/div/div/div[2]/div/form/fieldset/div[1]/input  ${EMAIL}
 
 Click Element password
     Click Element   //*[@id="app"]/div/div/div/div[2]/div/form/fieldset/div[2]
 
 Input Password 
-    Input Text    //*[@id="app"]/div/div/div/div[2]/div/form/fieldset/div[2]/input  Dragonworld5566
+    Input Text    //*[@id="app"]/div/div/div/div[2]/div/form/fieldset/div[2]/input  ${PASSWORD}
 
 click Element login button
     Click Element   //*[@id="app"]/div/div/div/div[2]/div/form/fieldset/div[3]/button
@@ -30,7 +31,7 @@ Click Element ประวัติการเตรวจสุขภาพ
     click Element  //*[@id="root"]/div/main/section[2]/div/div[2]/div[1]/a
 
 Click Element ตรวจ
-    Click Element   //*[@id="react-aria9637253652-«r33»-1500701347680-00146-$.0"]/a
+    Click Element   //*[@id="react-aria7386037449-«r19»-1500701347680-00146-$.0"]/a
 
 Click Element ประเมิน
     Click Element  //*[@id="root"]/div/main/article/section[3]/div/div/div/a
